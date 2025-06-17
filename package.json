@@ -12,7 +12,9 @@
   },
   "private": true,
   "dependencies": {
+    "@mui/icons-material": "^7.1.1",
     "@mui/material": "^7.1.1",
+    "react": "^19.1.0",
     "react-router-dom": "^7.6.2"
   }
 }

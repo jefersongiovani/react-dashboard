@@ -1,27 +1,28 @@
-#How to Extend This Template
+# How to Extend This Template
+___
 
-    Add New Pages:
 
-        Create new page components in src/pages
+### Add New Pages:
 
-        Add entries to menuItems.js configuration
+* Create new page components in src/pages
 
-    Customize Theme:
+* Add entries to menuItems.js configuration
 
-        Modify themeOptions.js to change colors, typography, etc.
+### Customize Theme:
 
-    Add More Widgets:
+#### Modify themeOptions.js to change colors, typography, etc.
 
-        Create new widget components in src/components
+### Add More Widgets:
 
-        Add them to the dashboard or other pages
+* Create new widget components in src/components
 
-    Authentication:
+* Add them to the dashboard or other pages
+### Authentication:
 
-        Add an AuthProvider and protected routes
+* Add an AuthProvider and protected routes
 
-    API Integration:
+### API Integration:
 
-        Connect to your backend services using axios or similar
+* Connect to your backend services using axios or similar
 
 This template provides a solid foundation that's both professional and customizable, following Material Design principles with a clean, modern interface. The responsive design ensures it works well on all device sizes.
