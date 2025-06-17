@@ -14,6 +14,7 @@ import Sidebar from './Sidebar';
 import DashboardPage from '../pages/DashboardPage';
 import PageNotFound from '../pages/PageNotFound';
 
+const drawerWidth = 240;
 const ControlPanel = ({ menuItems }) => {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
@@ -58,12 +59,14 @@ const ControlPanel = ({ menuItems }) => {
             <AppBar
                 sidebarOpen={sidebarOpen}
                 handleSidebarToggle={handleSidebarToggle}
+                drawerWidth={drawerWidth}
             />
             <Sidebar
                 menuItems={menuItems}
                 sidebarOpen={sidebarOpen}
                 handleSidebarToggle={handleSidebarToggle}
                 isMobile={isMobile}
+                drawerWidth={drawerWidth}
             />
             <Box
                 component="main"
